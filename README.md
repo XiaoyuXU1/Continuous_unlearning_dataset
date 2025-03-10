@@ -39,11 +39,11 @@ In large-scale language model applications, certain data may need to be “forgo
 ### 3.2 Dataset Split
 
 - **Forget Set**  
-  - This set serves as the **unlearning** target. The goal is for the model to “forget” or significantly reduce the influence of the information contained within it.  
+  - This set serves as the **unlearning** target and includes 400 data points. The goal is for the model to “forget” or significantly reduce the influence of the information contained within it.  
   - Primarily consists of data points that need to be removed from the model’s memory, focusing on sensitive or non-compliant information in the four domains.
 
 - **Retain Set**  
-  - This is the portion of data the model should preserve, ensuring that after forgetting the forget set, the retained knowledge remains intact.  
+  - This is the portion of data the model should preserve and includes 400 data points, ensuring that after forgetting the forget set, the retained knowledge remains intact.  
   - Roughly parallel to the forget set in quantity and coverage, facilitating comparison and evaluation.
 
 ---
