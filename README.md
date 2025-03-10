@@ -57,11 +57,11 @@ Below are some basic visualizations and comparative analyses, illustrating diffe
 
 2. **Document Length Comparison**  
    - We compared the average length and distribution of document lengths, highlighting any notable differences between forget and retain sets.
-
+![Token Frequency Distribution](token_distribution_comparison.png)
 3. **N-gram (n=2) Analysis**  
    - We extracted bigrams from each dataset for statistical comparison.  
    - Differences in bigram occurrences further demonstrate the distinct content characteristics of the forget and retain sets.
-
+![Max_2_gram_similarity](Max_2_gram_similarity.png)
 ---
 
 ## 5. Usage
