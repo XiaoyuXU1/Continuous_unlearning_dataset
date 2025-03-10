@@ -77,20 +77,8 @@ Below are some basic visualizations and comparative analyses, illustrating diffe
 
 ---
 
-## 6. License
-
-This dataset is intended for academic and non-commercial use only. Please read and adhere to the [LICENSE](LICENSE) in this repository, ensuring legal and ethical compliance during usage.
-
----
-
-## 7. Acknowledgments
+## 6. Acknowledgments
 
 Special thanks to:
 
 - **OpenAI & GPT-4** for providing the foundational model to generate text.  
-- Community contributors who invested their time and expertise in filtering and labeling.  
-- All open-source tools and frameworks that assisted in data processing and visualization.
-
----
-
-If you have any questions, suggestions, or concerns while using this dataset, feel free to open an issue or reach out through other channels. We hope this dataset can serve as a valuable benchmark for **continuous unlearning** research and encourage the community to explore more comprehensive mechanisms for LLM “forgetting.”
