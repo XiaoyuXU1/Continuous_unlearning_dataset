@@ -81,4 +81,4 @@ Below are some basic visualizations and comparative analyses, illustrating diffe
 
 Special thanks to:
 
-- **OpenAI & GPT-4** for providing the foundational model to generate text.  
+- **OpenAI & GPT-4o** for providing the foundational model to generate text.  
