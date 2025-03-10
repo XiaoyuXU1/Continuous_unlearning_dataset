@@ -12,7 +12,7 @@ In large-scale language model applications, certain data may need to be “forgo
 
 ## 2. Data Collection and Sources
 
-- **Data Sources**: Primarily generated via GPT-4, followed by a round of filtering and cleaning to ensure diversity and quality.  
+- **Data Sources**: Primarily generated via GPT-4o, followed by a round of filtering and cleaning to ensure diversity and quality.  
 - **Filtering Process**:  
   1. Classify and label the generated texts according to the four domains.  
   2. Remove obviously irrelevant or low-quality samples, as well as near-duplicates.  
@@ -35,7 +35,7 @@ In large-scale language model applications, certain data may need to be “forgo
 
 4. **Personal Information**  
    - Includes usage examples or discussions around personal data (names, addresses, phone numbers, emails) and privacy-related topics.
-
+![Dataset_example](Dataset_example.png)
 ### 3.2 Dataset Split
 
 - **Forget Set**  
