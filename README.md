@@ -12,12 +12,13 @@ In large-scale language model applications, certain data may need to be “forgo
 
 ## 2. Data Collection and Sources
 
-- **Data Sources**: Primarily generated via GPT-4o, followed by a round of filtering and cleaning to ensure diversity and quality.  
+- **Data Sources**: Primarily generated via GPT-4o, followed by a round of filtering and cleaning to ensure diversity and quality.
+- **Notes**: For copyright data, GPT-4o can only get synthetic code and paper, which needs to be manually expanded to get copyright data; For Harmful content, only content that does not involve dangerous knowledge can be generated.
 - **Filtering Process**:  
   1. Classify and label the generated texts according to the three domains.  
   2. Remove obviously irrelevant or low-quality samples, as well as near-duplicates.  
   3. Ensure coverage of different text lengths and varied topics.
-  4. 
+  4. Randomly divide the data set into retain set and forget set.
 
 ---
 
