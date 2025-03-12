@@ -61,7 +61,8 @@ Below are some basic visualizations and comparative analyses, illustrating diffe
 3. **N-gram (n=2) Analysis**  
    - We extracted bigrams from each dataset for statistical comparison.  
    - Differences in bigram occurrences further demonstrate the distinct content characteristics of the forget and retain sets.
-![Max_2_gram_similarity](Max_2_gram_similarity.png)
+![Max_2_gram_similarity](max_ngram_jaccard_similarity_all_list.png)
+![Max_2_gram_similarity](max_ngram_jaccard_similarity_retain_list.png)
 ---
 
 ## 5. Usage
