@@ -24,7 +24,7 @@ In large-scale language model applications, certain data may need to be “forgo
 
 ## 3. Composition of the Dataset
 
-### 3.1 Four Domains
+### 3.1 Three Domains
 
 1. **Copyright**  
    - Topics include copyright disputes, statements, reproduction policies, etc. Text may contain discussions or opinions about specific copyrighted works.
@@ -72,9 +72,6 @@ Below are some basic visualizations and comparative analyses, illustrating diffe
 
 2. **Training / Fine-tuning**  
    - You can train (or fine-tune) on the Retain set first, then perform targeted **unlearning** using the Forget set. Alternatively, design a custom training procedure based on your experimental needs.
-
-3. **Evaluation**  
-   - Evaluate the model on various metrics such as token frequency, text quality, and inference results after “forgetting.” Compare these results against the initial model or a version trained without unlearning.
 
 ---
 
